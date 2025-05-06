@@ -1,0 +1,55 @@
+pwd
+	- Print Working Directory
+	- Shows your current location
+	- Example: /home/users
+
+open
+	- Open files or folder in Finder (default application)
+	- open folder/filename
+
+ls 
+	- List files and folder in current directory
+
+cd
+	- Change directory 
+	- Move folder
+
+cd ..
+	- Go back one level to parent folder
+	- Example :/home/user -> cd .. -> /home
+
+cd .
+	- Stays in same folder
+	- used to trigger refresh in some environment
+
+cd ~
+	- Goes to home directory
+
+touch
+	- create empty file
+	- Example :touch notes.txt
+
+nano 
+	- create text editor in terminal to edit files
+	- Example :nano notes.txt
+
+rm
+	- Remove file
+	- Example : rm notes.txt
+
+rm -r
+	- remove folder and everything inside
+	- Example: rm -r myfolder
+
+mkdir 
+	- Make Directory
+	- create new folder
+	- Example : mkdir my folder
+
+Similarly
+ no need tp move to certain directory to touch,nano,rm,mkdir
+you can do it like touch dirname/filename, mkdir dirname/filename ,rm dirname/file name
+
+Important point to be noted
+
+rm doesnot send to trash it directly delete the folder/file
