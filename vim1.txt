@@ -4,3 +4,6 @@ Hello this is after i pressed i on vim it takes me to insert mode
 - Then to exit vim you either quit without saving :q!, or save :w and quit :q,or you save and quit :wq
 - if i press i it open insert mode but i typed captial A it goes to append mode.- Esc u undo 
 - while 0 beforer pressing i will put cursor at start of line and $ at end of line
+
+
+- test file 
