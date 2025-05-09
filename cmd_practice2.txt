@@ -1,0 +1,32 @@
+Create a new directory called practice and navigate into it.
+-mkdir practice
+
+Inside the practice directory, create three empty files: file1.txt, file2.txt, and file3.txt.
+-touch practice/file1.txt practice/file2.txt practice/file3.txt
+
+Write the text Hello, World! into file1.txt.
+-echo "hello world" >> practice/file1.txt
+
+Add a new line This is the second line. to file1.txt without removing existing content.
+-echo "Second line" >> practice/file1.txt
+
+Display the contents of file1.txt on the terminal.
+-cat practice/file3.txt 
+
+Make a copy of file1.txt and name it file1_backup.txt.
+-cp file1.txt filecopy.txt 
+-mv filecopy.txt file_backup.txt
+
+Create a subdirectory named backup and move file2.txt into it as renamed_file2.txt.
+-mkdir backup
+-mv fil2.txt path\ 
+-mv file2.txt rename_file2.txt
+
+List all .txt files in the current directory and its subdirectories.
+-ls
+
+Count how many lines, words, and characters are in file1.txt.
+-wc file1.txt
+
+Search the word Hello inside file1.txt and display matching lines.
+grap "hello world" file1.txt
